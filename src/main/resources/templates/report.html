@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Report</title>
+</head>
+<body>
+<h1>Report of Figure Image Analysis</h1>
+
+<h2>Summary</h2>
+<ul>
+    <li>Total number of images analyzed: <span th:text="${report.countAll}"></span></li>
+    <li>Number of correct predictions: <span th:text="${report.countTrue}"></span></li>
+    <li>Number of incorrect predictions: <span th:text="${report.countFalse}"></span></li>
+    <li>Percentage of correct predictions: <span th:text="${report.procentTrue} + '%'"></span></li>
+</ul>
+</body>
+</html>
