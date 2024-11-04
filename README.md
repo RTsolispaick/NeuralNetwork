@@ -5,7 +5,7 @@
 ## Установка
 
 1. Убедитесь, что у вас установлена последняя версия Java (рекомендуется Java 17 или выше).
-2. Скачайте файл JAR: [Скачать JAR файл]([neuralNetwork.jar](neuralNetwork.jar))
+2. Скачайте файл JAR: [Скачать JAR файл](https://github.com/RTsolispaick/NeuralNetwork/raw/refs/heads/main/neuralNetwork.jar)
 
 ## Запуск приложения
 
